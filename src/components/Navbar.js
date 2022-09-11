@@ -11,15 +11,16 @@ function Navbar() {
   //   navRef.current.classList.toggle("responsive_nav");
   // };
 
-  const [click, setClick] = useState(true);
-  const handleClick = () => setClick(!click);
+  const [click, setClick] = useState(false);
+  
+  const menuToggleHandler = () => setClick(!click);
 
   return (
     <>
       <header className="header">
         <div className="navbar-content">
           <h2 className="navbar-logo">ANAKLE</h2>
-          <nav className={click ? "navbar-items" : "navbar-items open-menu"}>
+          <nav className={click ? "navbar-items open-menu" : "navbar-items"}>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -41,9 +42,8 @@ function Navbar() {
             <button className="nav-button">Contact Us</button>
           </nav>
 
-          <button className="nav-button toggle" onClick={handleClick}>
-            
-            {click ? <IoGrid /> : <FaTimes /> }
+          <button className="nav-button toggle" onClick={menuToggleHandler}>
+            {click ?  <FaTimes /> : <IoGrid />}
           </button>
         </div>
       </header>
