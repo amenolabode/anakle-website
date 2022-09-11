@@ -1,6 +1,7 @@
 import { click } from "@testing-library/user-event/dist/click";
 import React, { useRef, useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import { IoGrid } from "react-icons/io5";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -17,7 +18,7 @@ function Navbar() {
     <>
       <header className="header">
         <div className="navbar-content">
-          <h2 className="navbar-logo">Anakle</h2>
+          <h2 className="navbar-logo">ANAKLE</h2>
           <nav className="navbar-items">
             <ul>
               <li>
@@ -41,7 +42,7 @@ function Navbar() {
           </nav>
 
           <button className="nav-button toggle" onClick={handleClick}>
-            <FaBars />
+            <IoGrid />
             {/* {click ? <FaTimes /> : <FaBars />} */}
           </button>
         </div>
