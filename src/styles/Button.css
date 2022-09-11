@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+:root {
+    --primaryBlack: #000000;
+    --secondaryBlack: #2e2e2e;
+    --primaryWhite: #FFFFFF;
+    --secondaryWhite: #bfbfbf;
+    --inactive: #aeaeae;
+    --bgBlack: #1B1B1D;
+
+}
+
+.primary-button {
+    padding: 10px 24px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    color: var(--primaryWhite);
+    background-color: var(--primaryBlack);
+
+}
+
+.primary-button:hover {
+    background-color: var(--secondaryBlack);
+    color: var(--secondaryWhite);
+}
