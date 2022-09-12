@@ -7,6 +7,7 @@ function Button ({ txtColor, bgColor, buttonText, onClick }) {
     <button
       className="primary-button"
       onClick={onClick}
+      style={{color: txtColor, backgroundColor: bgColor}}
       >
       
       {buttonText}

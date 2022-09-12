@@ -1,10 +1,10 @@
 import React from 'react'
-import HomepageHeader from './Homepage/HomepageHeader'
+import HomePageHero from './Homepage/HomepageHeader'
 
 const HomePage = () => {
   return (
     <>
-    <HomepageHeader />
+    <HomePageHero />
     </>
   )
 }
