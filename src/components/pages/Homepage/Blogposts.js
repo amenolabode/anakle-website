@@ -1,5 +1,6 @@
 import React from "react";
 import BlogComponent from "./BlogComponent";
+import "./../../../styles/homepage.css";
 
 const Blogposts = () => {
   const posts = [
@@ -37,11 +38,13 @@ const Blogposts = () => {
 
   return (
     <>
-      <div className="blogpost-countainer">
-        <div className="blogpost-media-scroller">
-          {posts.map((p, i) => (
-            <BlogComponent blogImage={p.image} blogTitle={p.title} key={i} />
-          ))}
+      <div className="blogpost-container">
+        <div className="blogpost-container-wrapper">
+          <div className="blogpost-media-scroller">
+            {posts.map((p, i) => (
+              <BlogComponent blogImage={p.image} blogTitle={p.title} key={i} />
+            ))}
+          </div>
         </div>
       </div>
     </>
