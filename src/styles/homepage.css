@@ -18,12 +18,13 @@
 }
 
 .home-hero {
-    padding: 0 1.5rem;
-    height: 100vh;
+    padding: 0 5rem;
+    height: 57.5rem;
     width: 100%;
     background-color: black;
     color: var(--primaryWhite);
     align-items: center;
+    /* max-width: 1080px; */
 }
 
 .hero-container {
@@ -63,19 +64,20 @@
     font-style: normal;
     font-weight: 700;
     font-size: 112px;
-    line-height: 0.9;
+    line-height: 1;
+    letter-spacing: 2px;
     transition: 0.3s ease all;
-    z-index:1;
+    z-index: 1;
     margin-bottom: 8px;
 }
 
 .subtitle {
-    width: 700px;
-     position: relative;
-     margin-bottom: 24px;
+    width: 670px;
+    position: relative;
+    margin-bottom: 24px;
     font-family: 'Poppins';
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
     font-style: normal;
     color: var(--primaryWhite);
     padding-top: 24px;
@@ -83,6 +85,7 @@
     line-height: 1.5;
     transition: 0.3s ease all;
     z-index: 1;
+
 }
 
 .homebutton {
@@ -93,11 +96,11 @@
 
 .hero-image {
     height: 56vh;
-    z-index: 0; 
+    z-index: 0;
 }
 
-.hero-image-wrapper{
-    position:absolute;
+.hero-image-wrapper {
+    position: absolute;
     bottom: 0px;
     right: 0px;
     z-index: 0;
@@ -108,7 +111,39 @@ button {
     z-index: 1;
 }
 
-@media only screen and (max-width: 1400px) {
+/* Logos */
+.home-logos {
+    margin: auto;
+    width: 100%;
+    /* width: 100%; */
+    align-content: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logo-content-wrapper {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-col {
+    margin: 16px;
+    width: 40%;
+    /* height: auto; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #000000; */
+}
+.logos-image {
+    width: 90%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
     .heading {
         font-family: 'Helvetica', sans-serif;
         position: relative;
@@ -134,7 +169,7 @@ button {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .heading {
         font-family: 'Helvetica', sans-serif;
         width: 300px;
@@ -163,19 +198,19 @@ button {
         margin-left: 2%;
         flex-wrap: wrap;
         align-content: stretch;
-    
+
     }
 
     .hero-image {
         height: 28vh;
-        z-index: 0; 
+        z-index: 0;
     }
-    
-    .hero-image-wrapper{
-        position:absolute;
+
+    .hero-image-wrapper {
+        position: absolute;
         top: 4%;
         right: 5%;
         z-index: 0;
-        
+
     }
 }

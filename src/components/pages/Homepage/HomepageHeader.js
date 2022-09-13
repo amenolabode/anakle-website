@@ -21,7 +21,7 @@ const HomePageHero = () => {
                   make faster and more meaningful connections with their target
                   audience.
                 </p>
-                <Button className="homebutton" bgColor='white' txtColor='black' buttonText="CONTACT US" onClick={onClick} />
+                <Button className="homebutton" bgColor='white' txtColor='black' buttonText="CONTACT US" fontsize="18px" fontweight="bold" onClick={onClick} />
               </div>
             </div>
 
