@@ -7,16 +7,18 @@ const GrowthSection = () => {
       <div className="growth-container">
         <div className="growth-row">
           <div className="growth-container-wrapper">
-            <h2 className="growth-Header">
-              We are more than an Agency, we\'re a Growth Marketing Company
+            <h2 className="growth-header">
+              We are more than an Agency, we're a Growth Marketing Company
             </h2>
             <p className="growth-subtitle">
               Trying to figure out how to scale and which marketing channels
               will help you grow fastest can be confusing and stressful. Every
               company is different so finding out what works for you is
               important. Driving the right customers to your small business and
-              achieving real ROI is essential for any B2B and B2C company. This
-              is where we come in. With our comprehensive suite of marketing
+              achieving real ROI is essential for any B2B and B2C company. 
+              <br />
+              <br />
+               This is where we come in. With our comprehensive suite of marketing
               solutions, we help you get a good understanding of your ideal
               clients then craft the right strategy to achieve your business
               goals.

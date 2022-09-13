@@ -5,13 +5,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Helvetica', sans-serif;
+    
 }
 
 :root {
     --primaryBlack: #000000;
     --secondaryBlack: #2e2e2e;
     --primaryWhite: #FFFFFF;
-    --secondaryWhite: #b9b9b9;
+    --secondaryWhite: #818195;
     --inactive: #aeaeae;
     --bgBlack: #1B1B1D;
 
@@ -24,20 +25,21 @@
     background-color: black;
     color: var(--primaryWhite);
     align-items: center;
-    /* max-width: 1080px; */
 }
 
 .hero-container {
     align-items: center;
     width: 120vh;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .row {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-right: -15px;
     margin-bottom: -15px;
-    margin-left: 10%;
+    /* margin-left: 1%; */
     flex-wrap: wrap;
     align-content: stretch;
 
@@ -58,7 +60,7 @@
 }
 
 .heading {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 1080px;
     position: relative;
     font-style: normal;
@@ -128,6 +130,8 @@ button {
     width: 70%;
     align-items: center;
     margin: auto;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .logo-col {
@@ -138,10 +142,66 @@ button {
     justify-content: space-between;
     /* background-color: #000000; */
 }
+
 .logos-image {
     width: 90%;
     height: auto;
 }
+
+/* Growth Section */
+.growth-container {
+    background-color: var(--primaryBlack);
+    color: var(--primaryWhite);
+    height: 100vh;
+    width: 100%;
+}
+
+.growth-row {
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    align-content: center;
+    padding-top: 10rem;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+
+.growth-container-wrapper {
+    margin-bottom: 10%;
+}
+
+.growth-header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    line-height: 48px;
+}
+
+.growth-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--secondaryWhite);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 75%;
+    margin: auto;
+    
+}
+
+.growth-col{
+    display: inline-block;
+    /* flex-direction: row; */
+}
+
 
 @media only screen and (max-width: 1200px) {
     .heading {
