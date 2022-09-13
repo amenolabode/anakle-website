@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../../styles/homepage.css";
 
-const footprint = () => {
+const Footprint = () => {
   return (
     <>
       <div className="footprint-container">
@@ -26,6 +26,9 @@ const footprint = () => {
             <h4 className="footprint-subeader-text">
                 BEING A MULTI-DISCIPLINARY AGENCY SERVING CLIENTS IN NIGERIA, GHANA AND NOW CANADA, WE’VE SERVED THE FOLLOWING INDUSTRIES:
             </h4>
+            <p className="footprint-subheader-subtitle">
+            Architecture, Construction & Engineering | Beer, Wine & Hospitality | Education | Banking | Aeronautical Engineering
+            </p>
           </div>
         </div>
       </div>
@@ -33,4 +36,4 @@ const footprint = () => {
   );
 };
 
-export default footprint;
+export default Footprint;
