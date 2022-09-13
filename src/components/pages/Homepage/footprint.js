@@ -36,21 +36,21 @@ const Footprint = () => {
           </div>
         </div>
         <div className="footprint-col footprint-logos-container">
-          <div className="">
-            <div className="firstline-logos">
-              <img src="./british_council-1.png" alt="yaaay" />
-              <img src="./wikipedia-1.png" alt="" />
-              <img src="./pz.png" alt="" />
+          <div className="footprint-logos-wrapper">
+            <div className="logos">
+              <img className="footprint-logos" src="./british_council-1.png" alt="yaaay" />
+              <img className="footprint-logos" src="./wikipedia-1.png" alt="" />
+              <img className="footprint-logos" src="./pz.png" alt="" />
             </div>
-            <div className="secondline-logos">
-              <img src="./access.png" alt="" />
-              <img src="./PGLogo.png" alt="" />
-              <img src="./uba.png" alt="" />
+            <div className="logos">
+              <img className="footprint-logos" src="./access.png" alt="" />
+              <img className="footprint-logos" src="./PGLogo.png" alt="" />
+              <img className="footprint-logos" src="./uba.png" alt="" />
             </div>
             {/* <div className="thirdline-logos">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <img className="footprint-logos" src="" alt="" />
+              <img className="footprint-logos" src="" alt="" />
+              <img className="footprint-logos" src="" alt="" />
             </div> */}
           </div>
         </div>

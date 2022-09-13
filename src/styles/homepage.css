@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
+    /* overscroll-behavior: contain; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -256,11 +257,6 @@ button {
     padding-top: 10rem;
 }
 
-.footprint-logos-container {
-    background-color: #F7F6F6;
-    ;
-}
-
 .topline {
     font-style: normal;
     font-weight: 700;
@@ -308,6 +304,24 @@ button {
     font-size: 16px;
     line-height: 24px;
     color: var(--secondaryWhite);
+}
+.footprint-logos-container {
+    background-color: #F7F6F6;
+    ;
+}
+
+.footprint-logos-wrapper{
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    padding-top: 35%;
+}
+.footprint-logos{
+    padding: 24px;
+}
+.logos{
+    align-items: center;
+    align-content: center;
 }
 
 @media only screen and (max-width: 1200px) {
