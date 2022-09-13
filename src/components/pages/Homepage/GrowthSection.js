@@ -28,7 +28,7 @@ const GrowthSection = () => {
           <div className="growth-row-wrapper">
             <div className="growth-col">
               <h3 className="growth-item-header">CREATIVE & DESIGN</h3>
-              <ul>
+              <ul className="growth-list">
                 <li className="growth-item">Design Direction</li>
                 <li className="growth-item">Creative Concepts & Ideas</li>
                 <li className="growth-item">Storytelling</li>
@@ -42,7 +42,7 @@ const GrowthSection = () => {
             </div>
             <div className="growth-col">
               <h3 className="growth-item-header">STRATEGY</h3>
-              <ul>
+              <ul className="growth-list">
                 <li className="growth-item">Digital Strategy</li>
                 <li className="growth-item">Content Strategy</li>
                 <li className="growth-item">Brand Experience</li>
@@ -54,7 +54,7 @@ const GrowthSection = () => {
             </div>
             <div className="growth-col">
               <h3 className="growth-item-header">DEVELOPMENT</h3>
-              <ul>
+              <ul className="growth-list">
                 <li className="growth-item">Responsive developement</li>
                 <li className="growth-item">Creative Front & Back End</li>
                 <li className="growth-item">Websites & Web Applications</li>
@@ -65,7 +65,7 @@ const GrowthSection = () => {
             </div>
             <div className="growth-col">
               <h3 className="growth-item-header">DIGITAL</h3>
-              <ul>
+              <ul className="growth-list">
                 <li className="growth-item">Social Media Management</li>
                 <li className="growth-item">Online Reputation Management</li>
                 <li className="growth-item">Social Media Campaigns</li>

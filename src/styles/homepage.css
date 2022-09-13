@@ -29,17 +29,16 @@
 
 .hero-container {
     align-items: center;
-    width: 120vh;
+    width: 100%;
     max-width: 1920px;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
-    /* align-items: center; */
     margin-right: -15px;
     margin-bottom: -15px;
-    /* margin-left: 1%; */
+    margin-left: 7.5%;
     flex-wrap: wrap;
     align-content: stretch;
 
@@ -48,7 +47,7 @@
 .col {
     margin-bottom: 15px;
     padding-right: 15px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     padding-top: 240px;
     flex: 1;
     /* max-width: 75%; */
@@ -65,12 +64,13 @@
     position: relative;
     font-style: normal;
     font-weight: 700;
-    font-size: 112px;
+    font-size: 88px;
     line-height: 1;
     letter-spacing: 2px;
     transition: 0.3s ease all;
     z-index: 1;
     margin-bottom: 8px;
+    
 }
 
 .subtitle {
@@ -81,7 +81,7 @@
     font-size: 20px;
     font-weight: 200;
     font-style: normal;
-    color: var(--primaryWhite);
+    color: var(--secondaryWhite);
     padding-top: 24px;
     padding-bottom: 40px;
     line-height: 1.5;
@@ -103,7 +103,7 @@
 
 .hero-image-wrapper {
     position: absolute;
-    bottom: 0px;
+    bottom: 50px;
     right: 0px;
     z-index: 0;
 }
@@ -154,21 +154,21 @@ button {
     color: var(--primaryWhite);
     height: 100vh;
     width: 100%;
+    
 }
 
 .growth-row {
     margin: auto;
-    width: 60%;
+    width: 70%;
     align-items: center;
     align-content: center;
     padding-top: 10rem;
     max-width: 1920px;
     margin: 0 auto;
-    
 }
 
 .growth-container-wrapper {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .growth-header {
@@ -187,19 +187,49 @@ button {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
     text-align: center;
     color: var(--secondaryWhite);
     padding-top: 24px;
-    padding-bottom: 24px;
     width: 75%;
     margin: auto;
-    
+
 }
 
 .growth-col{
-    display: inline-block;
-    /* flex-direction: row; */
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: aqua; */
+    align-content: center;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.growth-row-wrapper{
+    display: flex;
+    text-align: center;
+    background-color: var(--bgBlack);
+    padding: 40px;
+    border-radius: 12px;
+}
+.growth-list{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.growth-item{
+    color: var(--primarWhite);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 8px;
+    color: var(--secondaryWhite);
+    /* text-align: center; */
+    
+}
+.growth-item-header{
+    padding-bottom: 16px;
 }
 
 
