@@ -324,6 +324,30 @@ button {
     align-content: center;
 }
 
+/* Blogposts */
+
+.blogpost-wrapper{
+    /* width: 23%; */
+    height: 100%;
+
+}
+.blogpost-countainer{
+    height: 100vh;
+}
+.post-image{
+    height: 80%;
+    width: 80%;
+}
+
+.blogpost-media-scroller{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+    grid-auto-columns: 24%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
 @media only screen and (max-width: 1200px) {
     .heading {
         font-family: 'Helvetica', sans-serif;
