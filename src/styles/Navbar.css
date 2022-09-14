@@ -25,7 +25,9 @@
     background-color: var(--primaryBlack);
     color: var(--primaryWhite);
     transition: 0.3s ease all;
-    /* position: fixed ; */
+    position: fixed ;
+    width: 100%;
+    z-index: 101;
 
 }
 
