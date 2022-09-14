@@ -61,11 +61,11 @@
 
 .heading {
     /* font-family: 'Poppins', sans-serif; */
-    width: 1080px;
+    width: 880px;
     position: relative;
     font-style: normal;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 1.2;
     /* letter-spacing: 2px; */
     transition: 0.3s ease all;
@@ -75,11 +75,11 @@
 }
 
 .subtitle {
-    width: 670px;
+    width: 600px;
     position: relative;
     margin-bottom: 24px;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     font-style: normal;
     color: var(--secondaryWhite);
@@ -171,6 +171,9 @@ button {
 .sub-content-container{
     width: 30%;
     z-index: 50;
+    background-color: var(--primaryWhite);
+    position: absolute;
+    left: 50%;
 }
 
 /* Growth Section */
