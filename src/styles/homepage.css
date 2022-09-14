@@ -374,7 +374,7 @@ button {
 .blogpost-wrapper {
     width: 80%;
     margin: auto;
-    height: 60vh;
+    height: 50vh;
 }
 
 .blog-text-wrapper {
@@ -387,6 +387,29 @@ button {
     font-size: 14px;
 }
 
+/* Contact Us */
+.contact-wrapper {
+    background-color: var(--primaryBlack);
+    height: 40vh;
+    align-content: center;
+}
+
+.contact-text {
+    color: var(--primaryWhite);
+    text-align: center;
+    padding-top: 7.5%;
+}
+.contact-button{
+    align-content: center;
+ 
+}
+.contact-button-wrapper{
+    width: 10.05%;
+    /* width: 100%; */
+    margin: auto;
+    padding-top: 5%;
+
+}
 
 @media only screen and (max-width: 1200px) {
     .heading {

@@ -11,7 +11,6 @@ const HomePageHero = () => {
       <div className="home-hero">
         <div className="hero-container">
           <div className="row">
-
             <div className="col">
               <div className="hero-text-wrapper">
                 <h1 className="heading">Accelerate your growth results!</h1>
@@ -21,7 +20,15 @@ const HomePageHero = () => {
                   make faster and more meaningful connections with their target
                   audience.
                 </p>
-                <Button className="homebutton" bgColor='white' txtColor='black' buttonText="CONTACT US" fontsize="18px" fontweight="bold" onClick={onClick} />
+                <Button
+                  className="homebutton"
+                  bgColor="white"
+                  txtColor="black"
+                  buttonText="CONTACT US"
+                  fontsize="18px"
+                  fontweight="bold"
+                  onClick={onClick}
+                />
               </div>
             </div>
 
