@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { IoGrid } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+
 
 function Navbar() {
   // const navRef = useRef();
@@ -22,7 +24,8 @@ function Navbar() {
           <nav className={click ? "navbar-items open-menu" : "navbar-items"}>
             <ul>
               <li>
-                <a href="#">Home</a>
+                {/* <a href="#">Home</a> */}
+                <Link to="/"> Home</Link>
               </li>
               <li>
                 <a href="#">Our Menu</a>
@@ -31,7 +34,9 @@ function Navbar() {
                 <a href="#">Our Thoughts</a>
               </li>
               <li>
-                <a href="#">Our People</a>
+                {/* <a href="#">Our People</a> */}
+                <Link to="/ourteam"> Our Team </Link>
+                
               </li>
               <li>
                 <a href="#">Join Us</a>

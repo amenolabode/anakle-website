@@ -24,12 +24,14 @@ import {
   ZoomIn,
   ZoomOut,
 } from "react-scroll-motion";
+import Navbar from "../Navbar";
 
 const HomePage = () => {
   const FadeUp = batch(Fade(), Move(), Sticky());
 
   return (
     <>
+      <Navbar />
       <ScrollContainer>
         <ScrollPage page={0}>
           <Animator animation={Fade()}>

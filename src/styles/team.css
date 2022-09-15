@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    /* overscroll-behavior: contain; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    transition: color, #000000 .2s ease;
+
+}
+
+:root {
+    --primaryBlack: #000000;
+    --secondaryBlack: #2e2e2e;
+    --primaryWhite: #FFFFFF;
+    --secondaryWhite: #999999;
+    --inactive: #aeaeae;
+    --bgBlack: #1B1B1D;
+
+}
+
+/* Team Header */
+.team-header-container {
+    background-color: var(--primaryBlack);
+    height: 100vh;
+    color: var(--primaryWhite);
+    padding-top: 32vh;
+
+}
+
+.team-header-content-wrapper {
+    width: 85vh;
+    margin: auto;
+    /* background-color: aqua; */
+
+}
+
+.team-heading {
+    color: var(--primaryWhite);
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 64px;
+    margin-bottom: 24px;
+
+}
+
+.team-subtitle {
+    color: var(--secondaryWhite);
+    width: 70vh;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+
+/* Video */
+.video-container{
+    height: 60vh;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    top: -300px;
+    z-index: 50;
+}
+.video-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+iframe{
+    border: none;
+    /* background-color: aqua; */
+}
