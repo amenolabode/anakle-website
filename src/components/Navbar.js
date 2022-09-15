@@ -27,20 +27,20 @@ function Navbar() {
                 {/* <a href="#">Home</a> */}
                 <Link to="/"> Home</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Our Menu</a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#">Our Thoughts</a>
-              </li>
+              </li> */}
               <li>
                 {/* <a href="#">Our People</a> */}
                 <Link to="/ourteam"> Our Team </Link>
                 
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Join Us</a>
-              </li>
+              </li> */}
             </ul>
 
             <button className="nav-button">Contact Us</button>

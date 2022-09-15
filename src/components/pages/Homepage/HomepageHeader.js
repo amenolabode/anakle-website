@@ -53,7 +53,7 @@ const HomePageHero = () => {
                 </motion.button>
               </motion.div>
             </div>
-
+{/* 
             <div className="col">
               <motion.div
                 initial={"offset"}
@@ -69,7 +69,7 @@ const HomePageHero = () => {
                   className="hero-image"
                 />
               </motion.div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

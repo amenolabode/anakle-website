@@ -12,7 +12,7 @@
     align-items: center;
     height: 80px;
     padding: 0 1.5rem;
-    background-color: var(--bgBlack);
+    background-color: var(--primaryBlack);
     color: var(--primaryWhite);
     transition: 0.3s ease all;
     position: fixed;

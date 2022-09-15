@@ -41,8 +41,8 @@
     text-align: center;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 64px;
+    font-size: 64px;
+    line-height: 68px;
     margin-bottom: 24px;
 
 }
@@ -61,20 +61,135 @@
 
 
 /* Video */
-.video-container{
-    height: 60vh;
+.video-container {
+    height: 50vh;
     width: 100%;
     /* background-color: aqua; */
     position: relative;
     top: -300px;
     z-index: 50;
 }
-.video-wrapper{
+
+.video-wrapper {
     width: 80%;
     margin: auto;
 }
 
-iframe{
+iframe {
     border: none;
     /* background-color: aqua; */
+}
+
+/* workking */
+
+.working-container {
+    width: 100%;
+    padding-top: 40px;
+    /* background-color: aqua; */
+    height: 60vh;
+
+}
+
+.working-content-wrapper {
+    width: 90vh;
+    margin: auto;
+    display: flex;
+
+}
+
+.working-col-1 {
+    width: 30vh;
+    /* background-color: red; */
+
+}
+
+.working-overline {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 12px;
+}
+
+.working-col-2 {
+    width: 60vh;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.working-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-style: italic;
+}
+
+/* noise */
+.noise-container {
+    width: 100%;
+    height: 80vh;
+}
+
+.noise-wrapper {
+    width: 90vh;
+    margin: auto;
+    object-fit: contain;
+    display: flex;
+
+}
+.noise-bottom-img {
+    height: auto;
+    width: 120px;
+    transform: rotate(340deg);
+    position: relative;
+    top: 10px;
+    left: -50px;
+}
+.noise-off-img {
+    height: auto;
+    width: 120px;
+    transform: rotate(30deg);
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+.noise-center-img {
+    height: auto;
+    width: 360px;
+    transform: rotate(20deg);
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.noise-right-img {
+    height: 240px;
+    width: auto;
+
+}
+
+.noise-overline {
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 16px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.noise-text {
+    font-size: 125px;
+    line-height: 100px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    
+}
+
+.italic{
+    font-style: italic;
 }
