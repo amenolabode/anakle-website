@@ -5,7 +5,7 @@ import ContactUs from "./Homepage/ContactUs";
 import Footprint from "./Homepage/footprint";
 import GrowthSection from "./Homepage/GrowthSection";
 import HomePageHero from "./Homepage/HomepageHeader";
-import SubsidiariesComponent from "./Homepage/SubsidiariesComp";
+
 import {
   Animator,
   ScrollContainer,

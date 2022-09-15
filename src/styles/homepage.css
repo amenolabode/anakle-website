@@ -124,8 +124,7 @@ button {
     margin: auto;
     width: 100%;
     /* width: 100%; */
-    align-content: center;
-    justify-content: center;
+
     background-color: #FAFAFA;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -144,11 +143,6 @@ button {
     margin: 16px;
     margin-right: 40px;
     width: 32vh;
-    opacity: 0.4;
-    /* height: auto; */
-    display: flex;
-    justify-content: space-between;
-    /* background-color: #000000; */
 }
 
 .logo-col:hover {
@@ -318,7 +312,7 @@ button {
 }
 
 .growth-list {
- 
+
     display: block;
     /* width: 100%; */
     /* margin: auto; */
