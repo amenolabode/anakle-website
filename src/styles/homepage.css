@@ -22,7 +22,7 @@
 
 .home-hero {
     padding: 0 5rem;
-    height: 57.5rem;
+    height: 100vh;
     width: 100%;
     background-color: black;
     color: var(--primaryWhite);

@@ -32,19 +32,13 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <ScrollContainer>
-        <ScrollPage page={0}>
-          <Animator animation={Fade()}>
-            <HomePageHero />
-          </Animator>
-        </ScrollPage>
-        <AnakleSubsidiaries />
 
-        <GrowthSection />
-        <Footprint />
-        <Blogposts />
-        <ContactUs />
-      </ScrollContainer>
+      <HomePageHero />
+      <AnakleSubsidiaries />
+      <GrowthSection />
+      <Footprint />
+      <Blogposts />
+      <ContactUs />
     </>
   );
 };

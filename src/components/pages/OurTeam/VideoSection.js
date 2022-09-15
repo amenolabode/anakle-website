@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./../../../styles/team.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import YouTube from "react-youtube";
 
 const VideoSection = () => {
