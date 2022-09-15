@@ -1,31 +1,67 @@
-import React from "react";
+import React, { useState } from "react";
 import "./../../../styles/homepage.css";
+import { motion, Variants } from "framer-motion";
 
-const SubsidiariesComponent = () => {
+const textAnimation = {
+  offset: { y: -100, opacity: 0 },
+  animated: {
+    y: 0,
+    opacity: 1,
+    rotate: [0, 10, 0],
+    transition: { type: "spring", bounce: 0.4 },
+    delay: 0,
+    duration: 0.01,
+  },
+};
+
+const imageAnimation = {
+  offset: { x: 200, opacity: 0 },
+  animated: {
+    x: 0,
+    opacity: 1,
+
+    delay: 0,
+    duration: 0.01,
+  },
+};
+
+const SubsidiariesComponent = ({
+  topline,
+  subsidiarylogo,
+  underline,
+  text,
+}) => {
   return (
     <>
       <div className="sub-container">
-        <div className="sub-col">
+        <motion.div
+          initial={"offset"}
+          whileInView={"animated"}
+          viewport={{ once: false, amount: 0.5 }}
+          transition={{ staggerChildren: 1 }}
+          className="sub-col"
+        >
           <div className="sub-img-wrapper">
-            <img src="./blogimage.jpg" alt="" className="sub-img" />
+            <motion.img
+              variants={imageAnimation}
+              src="./blogimage.jpg"
+              alt=""
+              className="sub-img"
+            />
           </div>
 
-          <div className="sub-content-container">
+          <motion.div
+            variants={textAnimation}
+            className="sub-content-container"
+          >
             <div className="sub-content-wrapper">
-              <p className="sub-content-topline">THE COMPANY</p>
-              <img src="./ANAKLE.svg" alt="" className="sub-logo" />
-              <p className="sub-content-underline">The Agency</p>
-              <p className="sub-content-text">
-                Marketing is constantly evolving, and our team is constantly
-                adapting to help clients build experiences for their offline and
-                online platforms to ensure maximum return on their advertising
-                investments. Our team offers localised solutions, tailored to
-                meet specific client needs. Clients are involved throughout the
-                strategy design process.
-              </p>
+              <p className="sub-content-topline">{topline}</p>
+              <img src={subsidiarylogo} alt="" className="sub-logo" />
+              <p className="sub-content-underline">{underline}</p>
+              <p className="sub-content-text">{text}</p>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </>
   );

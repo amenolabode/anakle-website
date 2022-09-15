@@ -1,6 +1,7 @@
 import React from "react";
 import BlogComponent from "./BlogComponent";
 import "./../../../styles/homepage.css";
+import { motion, Variants } from "framer-motion";
 
 const Blogposts = ({ blogBody }) => {
   const posts = [
@@ -43,7 +44,7 @@ const Blogposts = ({ blogBody }) => {
           <div className="blog-text-wrapper">
             <p className="blogpost-topline">BLOG POSTS</p>
             <h1 className="blogpost-header">OUR JOURNAL</h1>
-            <p className="blogpost-header">{blogBody}</p>
+            <p className="blogpost-body">{blogBody}</p>
           </div>
           <div className="blogpost-media-scroller">
             {posts.map((p, i) => (

@@ -4,7 +4,7 @@ import "./../../../styles/homepage.css";
 const GrowthSection = () => {
   return (
     <>
-      <div className="growth-container">
+      <div data-aos="animation_name" className="growth-container">
         <div className="growth-row">
           <div className="growth-container-wrapper">
             <h2 className="growth-header">
