@@ -1,6 +1,7 @@
 import React from "react";
 import "./../../../styles/homepage.css";
 // import { motion } from "framer-motion";
+import ANAKLE from "./images/ANAKLE.svg"
 
 const textAnimation = {
   offset: { y: -100, opacity: 0 },
