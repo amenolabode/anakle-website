@@ -60,7 +60,7 @@ const HomePageHero = () => {
             </div> */}
 
             
-            {/* <div className="col">
+            <div className="col">
               <div
                 initial={"offset"}
                 whileInView={"animated"}
@@ -75,7 +75,7 @@ const HomePageHero = () => {
                   className="hero-image"
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

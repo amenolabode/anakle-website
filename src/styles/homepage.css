@@ -486,10 +486,10 @@ button {
     padding-top: 24px;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 21%;
+    grid-auto-columns: 20%;
     overflow-y: hidden;
     overflow-x: auto;
-    gap: 24px;
+    gap: 20px;
 }
 
 .blogpost-media-scroller::-webkit-scrollbar {
@@ -503,7 +503,7 @@ button {
 }
 
 .blogpost-wrapper {
-    width: 37.5vh;
+    width: 27.5vh;
     margin: auto;
     height: 60vh;
     padding-top: 5vh;
