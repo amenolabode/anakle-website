@@ -161,11 +161,11 @@ button {
 }
 
 .logos-image {
-    max-width: 280px;
+    /* max-width: 280px; */
     /* width: auto; */
     height: 20px;
-    margin: auto;
-    object-fit: contain;
+    /* margin: auto; */
+    /* object-fit: contain; */
 }
 
 /* subsidiaries */
