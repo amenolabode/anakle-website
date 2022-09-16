@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import "./../../../styles/homepage.css";
 import SubsidiariesComponent from "./SubsidiariesComp";
-import { anakle, anaklefilms, anaklelabs, drovvo, forward } from "./Data/subData";
-// import { } from "framer-;
+import {
+  anakle,
+  anaklefilms,
+  anaklelabs,
+  drovvo,
+  forward,
+} from "./Data/subData";
+import { anaklelogo } from "./anakle.svg";
 
+// import { } from "framer-;
 
 const AnakleSubsidiaries = () => {
   // const [name, settoActive] = useState("anakle");
@@ -22,16 +29,13 @@ const AnakleSubsidiaries = () => {
         <div className=" ">
           <div className="hm-lg-cnt">
             <div className=" home-logos container">
-              <div
-                
-                className="logo-content-wrapper"
-              >
+              <div className="logo-content-wrapper">
                 <div
                   className="anakle logo-col"
                   onClick={() => setSubsidiary(subsidiaries[0])}
                 >
-                  {/* <img className="logos-image" src="./anakle.svg" alt="" /> */}
-                  <h1>ANAKLE</h1>
+                  <img className="logos-image" src={anaklelogo} alt="" />
+                  {/* <h1>ANAKLE</h1> */}
                 </div>
                 {/*  */}
                 <div
