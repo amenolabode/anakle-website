@@ -59,8 +59,8 @@ const HomePageHero = () => {
               </div>
             </div> */}
 
-            {/* 
-            <div className="col">
+            
+            {/* <div className="col">
               <div
                 initial={"offset"}
                 whileInView={"animated"}

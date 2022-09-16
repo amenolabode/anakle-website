@@ -1,32 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
 import "./../../../styles/homepage.css";
+import { accordiondata } from "./Data/GrowthAccordionData";
+import { FaChevronDown } from "react-icons/fa";
 
 const GrowthSection = () => {
+  const [selected, setSelection] = useState(null);
+
+  const toggle = (i) => {
+    if(selected == i ) {
+      return setSelection(null);
+    }
+    setSelection(i);
+  }
+
   return (
     <>
       <div className="growth-container">
-        <div className="growth-row container" >
+        <div className="growth-row container">
           <div className="growth-container-wrapper ">
+            <img src="./growth-heart.gif" alt="" className="growth-image-1 growth-image" />
+            <img src="./growth-bar.gif" alt="" className="growth-image-2 growth-image" />
             <h2 className="growth-header">
-              We are more than an Agency, we're a Growth Marketing Company
+              More than an Agency, <br /> we're a Growth Marketing Company
             </h2>
             <p className="growth-subtitle">
-              Trying to figure out how to scale and which marketing channels
-              will help you grow fastest can be confusing and stressful. Every
-              company is different so finding out what works for you is
-              important. Driving the right customers to your small business and
-              achieving real ROI is essential for any B2B and B2C company. 
-              <br />
-              <br />
-               This is where we come in. With our comprehensive suite of marketing
+              
+              With our comprehensive suite of marketing
               solutions, we help you get a good understanding of your ideal
               clients then craft the right strategy to achieve your business
               goals.
             </p>
-          </div>
+            <div className="growth-row-wrapper container">
+              <div className="accordion">
+                {accordiondata.map((accordiondata, i) => (
+                  <div className="item" onClick={() => toggle(i)}>
+                    <div className="title">
+                      <h2 className="accordion-title-text">
+                        {" "}
+                        {accordiondata.topline}{" "}
+                      </h2>
+                      <span>
+                        {" "}
+                        <FaChevronDown className={selected === i ? "iconshow" : ""}/>{" "}
+                      </span>
+                    </div>
+                    <div className={selected === i ? "show" : "content"}>{accordiondata.text}</div>
+                  </div>
+                ))}
+              </div>
+              
+            </div>
 
-          <div className="growth-row-wrapper container">
-            <div className="growth-col">
+            {/* <div className="growth-col">
               <h3 className="growth-item-header">CREATIVE & DESIGN</h3>
               <ul className="growth-list">
                 <li className="growth-item">Design Direction</li>
@@ -70,7 +95,7 @@ const GrowthSection = () => {
                 <li className="growth-item">Online Reputation Management</li>
                 <li className="growth-item">Social Media Campaigns</li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./../../../styles/homepage.css";
 import SubsidiariesComponent from "./SubsidiariesComp";
-import { anakle, anaklefilms, anaklelabs, drovvo, forward } from "./subData";
+import { anakle, anaklefilms, anaklelabs, drovvo, forward } from "./Data/subData";
 import { motion, Variants } from "framer-motion";
 
 const textAnimation = {
