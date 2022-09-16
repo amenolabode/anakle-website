@@ -10,7 +10,7 @@
 .header {
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 88px;
     padding: 0 1.5rem;
     background-color: var(--primaryBlack);
     color: var(--primaryWhite);
@@ -101,6 +101,8 @@ nav a:active {
     background-color: var(--primaryWhite);
     border-radius: 8px;
     font-weight: 500;
+    font-size: 18px;
+    font-style: bold;
 }
 
 .home-button{
@@ -108,7 +110,6 @@ nav a:active {
 }
 
 .nav-button:hover {
-    border-color: var(--secondaryWhite);
     color: var(--secondaryWhite);
 }
 

@@ -1,8 +1,10 @@
 import React from "react";
 import "./../../../styles/homepage.css";
-import { motion, Variants } from "framer-motion";
-import TextAnimation from "./TextAnimation";
+import { Container } from "react-bootstrap";
+// import {  Variants } from "framer-;
+// import TextAnimation from "./TextAnimation";
 <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />;
+
 
 const textAnimation = {
   offset: { y: 200, opacity: 0 },
@@ -21,54 +23,58 @@ const HomePageHero = () => {
 
   return (
     <>
-      <script>AOS.init();</script>
       <div className="home-hero">
         <div className="hero-container">
           <div className="row">
             <div className="col">
-              <motion.div
-                initial={"offset"}
-                whileInView={"animated"}
-                viewport={{ once: false, amount: 0.5 }}
-                transition={{ staggerChildren: 1 }}
-                className="hero-text-wrapper"
-              >
-                <motion.h1 variants={textAnimation} className="heading">
-                  Accelerate your <TextAnimation /> results!
-                </motion.h1>
+              <div className="hero-text-wrapper">
+                <h1 className="heading">Accelerate your growth results!</h1>
 
-                <motion.p variants={textAnimation} className="subtitle">
+                <p className="subtitle">
                   At Anakle, we are agile, strategic, innovative and passionate.
                   Using data driven marketing solutions, we help our clients
                   make faster and more meaningful connections with their target
                   audience.
-                </motion.p>
-                <motion.button
-                  variants={textAnimation}
-                  className="nav-button home-button"
-                  onClick={onClick}
-                >
+                </p>
+                <button className="nav-button home-button" onClick={onClick}>
                   {" "}
                   Contact Us
-                </motion.button>
-              </motion.div>
+                </button>
+              </div>
             </div>
-{/* 
+
+            {/* <div className="col">
+              <div className="video-wrapper">
+                <Container>
+                  <div className="hero-image">
+                    <iframe
+                      src="https://embed.lottiefiles.com/animation/118197?autoplay=1&mute=1&playlist=118197&loop=1&controls=0"
+                      title="YouTube video"
+                      width="1280px"
+                      height="720px"
+                    ></iframe>
+                    
+                  </div>
+                </Container>
+              </div>
+            </div> */}
+
+            {/* 
             <div className="col">
-              <motion.div
+              <div
                 initial={"offset"}
                 whileInView={"animated"}
                 viewport={{ once: false, amount: 1 }}
                 transition={{ staggerChildren: 0.5 }}
                 className="hero-image-wrapper"
               >
-                <motion.img
+                <img
                   variants={imageAnimation}
                   src="./heroimage.png"
                   alt="Car"
                   className="hero-image"
                 />
-              </motion.div>
+              </div>
             </div> */}
           </div>
         </div>
