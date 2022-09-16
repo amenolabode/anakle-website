@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./../../../styles/homepage.css";
 import SubsidiariesComponent from "./SubsidiariesComp";
 import { anakle, anaklefilms, anaklelabs, drovvo, forward } from "./Data/subData";
-import { motion } from "framer-motion";
+// import { } from "framer-;
 
 
 const AnakleSubsidiaries = () => {
@@ -22,11 +22,8 @@ const AnakleSubsidiaries = () => {
         <div className=" ">
           <div className="hm-lg-cnt">
             <div className=" home-logos container">
-              <motion.div
-                initial={"offset"}
-                whileInView={"animated"}
-                viewport={{ once: false, amount: 0.5 }}
-                transition={{ staggerChildren: 1 }}
+              <div
+                
                 className="logo-content-wrapper"
               >
                 <div
@@ -63,7 +60,7 @@ const AnakleSubsidiaries = () => {
                 >
                   <img src="./forward.svg" alt="" className="logos-image" />
                 </div>
-              </motion.div>
+              </div>
             </div>
           </div>
 
