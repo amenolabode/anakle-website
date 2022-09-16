@@ -12,7 +12,7 @@ import ANAKLE from "./images/ANAKLE.svg"
 import ANAKLEFILMS from "./images/ANAKLEFILMS.svg"
 import ANAKLELABS from "./images/ANAKLELABS.svg"
 import DROVVO from "./images/DROVVO.svg"
-import FORWARD from "./images/FORWARD.svg"
+import FORWARD from "./images/forward.svg"
 
 // import { } from "framer-;
 
