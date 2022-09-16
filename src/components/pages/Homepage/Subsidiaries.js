@@ -8,7 +8,7 @@ import {
   drovvo,
   forward,
 } from "./Data/subData";
-import anaklelogo from "./anakle.svg";
+import anaklelogo from "./../../../../public/anakle.svg";
 
 // import { } from "framer-;
 
