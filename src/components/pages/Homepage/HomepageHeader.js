@@ -24,7 +24,7 @@ const HomePageHero = () => {
   return (
     <>
       <div className="home-hero">
-        <div className="hero-container">
+        <div className="hero-container container">
           <div className="row">
             <div className="col">
               <div className="hero-text-wrapper">

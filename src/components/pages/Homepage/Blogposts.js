@@ -40,7 +40,7 @@ const Blogposts = ({ blogBody }) => {
   return (
     <>
       <div className="blogpost-container">
-        <div className="blogpost-container-wrapper">
+        <div className="blogpost-container-wrapper container">
           <div className="blog-text-wrapper">
             <p className="blogpost-topline">BLOG POSTS</p>
             <h1 className="blogpost-header">OUR JOURNAL</h1>

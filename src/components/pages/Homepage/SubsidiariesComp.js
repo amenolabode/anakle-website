@@ -33,13 +33,13 @@ const SubsidiariesComponent = ({
 }) => {
   return (
     <>
-      <div className="sub-container">
+      <div className="sub-container ">
         <motion.div
           initial={"offset"}
           whileInView={"animated"}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ staggerChildren: 1 }}
-          className="sub-col"
+          className="sub-col container"
         >
           <div className="sub-img-wrapper">
             <motion.img

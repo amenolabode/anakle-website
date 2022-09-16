@@ -4,9 +4,9 @@ import "./../../../styles/homepage.css";
 const GrowthSection = () => {
   return (
     <>
-      <div data-aos="animation_name" className="growth-container">
-        <div className="growth-row">
-          <div className="growth-container-wrapper">
+      <div className="growth-container">
+        <div className="growth-row container" >
+          <div className="growth-container-wrapper ">
             <h2 className="growth-header">
               We are more than an Agency, we're a Growth Marketing Company
             </h2>
@@ -25,7 +25,7 @@ const GrowthSection = () => {
             </p>
           </div>
 
-          <div className="growth-row-wrapper">
+          <div className="growth-row-wrapper container">
             <div className="growth-col">
               <h3 className="growth-item-header">CREATIVE & DESIGN</h3>
               <ul className="growth-list">

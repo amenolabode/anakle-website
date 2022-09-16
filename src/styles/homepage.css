@@ -19,14 +19,20 @@
     --bgBlack: #1B1B1D;
 
 }
+.container{
+    max-width: 1920px;
+    margin: auto;
+}
 
 .home-hero {
     padding: 0 5rem;
-    height: 100vh;
+    height: fit-content;
+    padding-bottom: 320px;
     width: 100%;
     background-color: black;
     color: var(--primaryWhite);
     align-items: center;
+    
 }
 
 .hero-container {
@@ -91,7 +97,7 @@
     color: var(--secondaryWhite);
     padding-top: 24px;
     padding-bottom: 40px;
-    line-height: 1.35;
+    line-height: 24px;
     transition: 0.3s ease all;
     z-index: 1;
 
@@ -121,33 +127,36 @@ button {
 }
 
 /* Logos */
+.hm-lg-cnt{
+    background-color: #FAFAFA;
+    width: 100%;
+}
 .home-logos {
     margin: auto;
-    width: 100%;
-    /* width: 100%; */
-
-    background-color: #FAFAFA;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .logo-content-wrapper {
     display: flex;
-    width: 100vh;
+    /* width: 60vh; */
     align-items: center;
     max-width: 1920px;
-    margin: 0 auto;
-    margin-right: 50vh;
+    margin-left: 240px;
+    margin-right: 240px;
+    /* background-color: aqua; */
+   
 }
 
 .logo-col {
-    margin: 16px;
-    margin-right: 40px;
-    width: 32vh;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 24vh;
+    opacity: 1;
 }
 
 .logo-col:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .logo-col:active {
@@ -155,19 +164,24 @@ button {
 }
 
 .logos-image {
+    max-width: 280px;
     width: auto;
-    height: 2.75vh;
+    height: 20px;
+    margin: auto;
 }
 
 /* subsidiaries */
 .sub-container {
     width: 100%;
-    height: 80vh;
-    padding-top: 5%;
+    height: fit-content;
+    padding-top: 120px;
+    padding-bottom: 240px;
+    max-width: 1080px;
+    margin: auto;
 }
 
 .sub-col {
-    width: 100vh;
+    /* width: 80vh; */
     height: auto;
     margin: 0 auto;
     border: 0.1px dashed #000000;
@@ -189,7 +203,7 @@ button {
 }
 
 .sub-content-container {
-    width: 50%;
+    width: 480px;
     height: 360px;
     background-color: var(--primaryWhite);
     position: relative;
@@ -249,17 +263,19 @@ button {
 
 .growth-row {
     margin: auto;
-    width: 120vh;
+    /* width: 120vh; */
     align-items: center;
     align-content: center;
-    padding-top: 6rem;
-    max-width: 1920px;
-    margin: 0 auto;
+    padding-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    /* max-width: 1920px; */
+    /* margin: 0 auto; */
 
 }
 
 .growth-container-wrapper {
-    margin-bottom: 5%;
+    margin-bottom: 5rem;
+    /* background-color: aqua; */
 
 }
 
@@ -271,7 +287,7 @@ button {
     font-weight: 800;
     font-size: 36px;
     text-align: center;
-    width: 75vh;
+    width: 40rem;
     margin: auto;
     line-height: 44px;
     /* transform: translate3d(0, 14%, 0);
@@ -287,36 +303,33 @@ button {
     text-align: center;
     color: var(--secondaryWhite);
     padding-top: 24px;
-    width: 85vh;
+    width: 60rem;
     margin: auto;
 
+}
+.growth-row-wrapper {
+    display: flex;
+    text-align: center;
+    padding-top: 24px;
+    width: 70%;
 }
 
 .growth-col {
     margin: 0 auto;
     text-align: center;
-    /* background-color: aqua; */
     align-content: center;
     background-color: var(--bgBlack);
     /* border-radius: 16px; */
-    padding: 24px;
-    margin: 8px;
+    padding: 24px 24px;
     padding-bottom: 48px;
-    width: 30vh;
-}
-
-.growth-row-wrapper {
-    display: flex;
-    text-align: center;
-    padding-top: 24px;
-
+    width: 320px;
 }
 
 .growth-list {
 
     display: block;
-    /* width: 100%; */
-    /* margin: auto; */
+    padding: 0;
+    margin: 0;
 }
 
 .growth-item {
@@ -324,9 +337,10 @@ button {
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
-    padding-bottom: 8px;
+    padding: 8px;
     color: var(--secondaryWhite);
     /* text-align: center; */
+    width: 100%;
 
 }
 
@@ -338,7 +352,7 @@ button {
 
 .footprint-container {
     margin: auto;
-    max-width: 1920px;
+    
     height: 75vh;
     width: 100%;
     /* background-color: aqua; */
@@ -352,6 +366,7 @@ button {
     height: 100%;
     margin: auto;
     padding-top: 5vh;
+    max-width: 1920px;
 }
 
 .footprint-text-wrapper {

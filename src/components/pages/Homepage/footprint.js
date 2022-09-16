@@ -5,7 +5,7 @@ const Footprint = () => {
   return (
     <>
       <div className="footprint-container">
-        <div className=" footprint-col">
+        <div className="footprint-container-wrapper container"><div className=" footprint-col">
           <div className="footprint-text-wrapper">
 
             <div className="footprint-text">
@@ -53,7 +53,7 @@ const Footprint = () => {
               <img className="footprint-logos" src="" alt="" />
             </div> */}
           </div>
-        </div>
+        </div></div>
       </div>
     </>
   );

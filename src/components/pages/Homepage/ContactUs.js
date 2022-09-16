@@ -5,7 +5,7 @@ import "./../../../styles/homepage.css";
 const ContactUs = ({ onClick }) => {
   return (
     <>
-      <div className="contact-wrapper">
+      <div className="contact-wrapper container">
         <h1 className="contact-text">HAVE A PROJECT? LET’S TALK</h1>
         <div className="contact-button-wrapper">
           <Button
