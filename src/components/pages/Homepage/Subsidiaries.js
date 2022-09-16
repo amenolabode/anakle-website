@@ -8,7 +8,7 @@ import {
   drovvo,
   forward,
 } from "./Data/subData";
-import anaklelogo from "./../../../../public/anakle.svg";
+import ANAKLE from "./images/ANAKLE.svg"
 
 // import { } from "framer-;
 
@@ -34,7 +34,7 @@ const AnakleSubsidiaries = () => {
                   className="anakle logo-col"
                   onClick={() => setSubsidiary(subsidiaries[0])}
                 >
-                  <img className="logos-image" src={anaklelogo} alt="" />
+                  <img className="logos-image" src={ANAKLE} alt="" />
                   {/* <h1>ANAKLE</h1> */}
                 </div>
                 {/*  */}
