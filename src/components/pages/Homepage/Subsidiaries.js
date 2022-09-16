@@ -30,7 +30,8 @@ const AnakleSubsidiaries = () => {
                   className="anakle logo-col"
                   onClick={() => setSubsidiary(subsidiaries[0])}
                 >
-                  <img className="logos-image" src="./anakle.svg" alt="" />
+                  {/* <img className="logos-image" src="./anakle.svg" alt="" /> */}
+                  <h1>ANAKLE</h1>
                 </div>
                 {/*  */}
                 <div
