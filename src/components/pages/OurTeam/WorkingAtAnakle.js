@@ -1,5 +1,6 @@
 import React from "react";
 import "./../../../styles/team.css";
+import ANAKLE from "./../Homepage/images/ANAKLE.svg"
 
 const WorkingAtAnakle = () => {
   return (
@@ -8,7 +9,7 @@ const WorkingAtAnakle = () => {
         <div className="working-content-wrapper">
           <div className="working-col-1">
             <p className="working-overline">Working at</p>
-            <img src="./anakle.svg" alt="" className="anakle-logo" />
+            <img src={ANAKLE} alt="" className="anakle-logo" />
           </div>
 
           <div className="working-col-2">
