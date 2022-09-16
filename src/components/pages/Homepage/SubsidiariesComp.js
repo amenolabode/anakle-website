@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./../../../styles/homepage.css";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 const textAnimation = {
   offset: { y: -100, opacity: 0 },

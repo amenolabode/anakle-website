@@ -7,7 +7,7 @@ const GrowthSection = () => {
   const [selected, setSelection] = useState(null);
 
   const toggle = (i) => {
-    if(selected == i ) {
+    if(selected === i ) {
       return setSelection(null);
     }
     setSelection(i);

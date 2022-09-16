@@ -1,7 +1,6 @@
 import React from "react";
 import BlogComponent from "./BlogComponent";
 import "./../../../styles/homepage.css";
-import { motion, Variants } from "framer-motion";
 
 const Blogposts = ({ blogBody }) => {
   const posts = [

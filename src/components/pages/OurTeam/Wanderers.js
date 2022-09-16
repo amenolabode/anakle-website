@@ -7,6 +7,7 @@ const Wanderers = () => {
         <div className="wanderers-content-wrapper">
           <iframe
             className="wanderer"
+            title="animation"
             src="https://embed.lottiefiles.com/animation/115190"
             width="720px"
             height="400px"

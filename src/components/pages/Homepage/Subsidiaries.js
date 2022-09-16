@@ -2,17 +2,8 @@ import React, { useState } from "react";
 import "./../../../styles/homepage.css";
 import SubsidiariesComponent from "./SubsidiariesComp";
 import { anakle, anaklefilms, anaklelabs, drovvo, forward } from "./Data/subData";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
-const textAnimation = {
-  offset: { y: 200, opacity: 0 },
-  animated: { y: 0, opacity: 1, rotate: [0, 10, 0] },
-};
-
-const imageAnimation = {
-  offset: { x: 5000, opacity: 0 },
-  animated: { x: 0, opacity: 1 },
-};
 
 const AnakleSubsidiaries = () => {
   // const [name, settoActive] = useState("anakle");
