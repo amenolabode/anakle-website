@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../../styles/homepage.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const textAnimation = {
   offset: { y: -100, opacity: 0 },
@@ -34,24 +34,13 @@ const SubsidiariesComponent = ({
   return (
     <>
       <div className="sub-container ">
-        <motion.div
-          initial={"offset"}
-          whileInView={"animated"}
-          viewport={{ once: false, amount: 0.5 }}
-          transition={{ staggerChildren: 1 }}
-          className="sub-col container"
-        >
+        <div className="sub-col container">
           <div className="sub-img-wrapper">
-            <motion.img
-              variants={imageAnimation}
-              src="./blogimage.jpg"
-              alt=""
-              className="sub-img"
-            />
+            <img src="./blogimage.jpg" alt="" className="sub-img" />
           </div>
 
-          <motion.div
-            variants={textAnimation}
+          <div
+            // variants={textAnimation}
             className="sub-content-container"
           >
             <div className="sub-content-wrapper">
@@ -60,8 +49,8 @@ const SubsidiariesComponent = ({
               <p className="sub-content-underline">{underline}</p>
               <p className="sub-content-text">{text}</p>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </>
   );
